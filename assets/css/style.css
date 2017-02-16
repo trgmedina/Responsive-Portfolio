@@ -101,13 +101,6 @@ a.default_links {
 	display: inline-block;
 }
 
-label {
-	font-family: "Georgia";
-	font-size: 16px;
-	font-weight: bold;
-	color: #600320;
-}
-
 input {
 	width: 100%;
 	padding: 12px 20px;
@@ -138,76 +131,52 @@ button {
     display: inline-block;
 }
 
-.portfolio_images {
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-bottom: 20px;
+.main-section {
+  margin: 0 0 40px 0;
+  width: 100%;
+  max-width: 650px;
+  float: left;
 }
 
-#hangman {
-	float: left;
-	padding-bottom: 40px;
-	z-index: 1;
+.work {
+  position: relative;
+  width: 274px;
+  overflow: auto;
+  float: left;
+  margin: 20px 0 25px;
 }
 
-#rpg_game {
-	float: right;
-	padding-bottom: 40px;
+.work:nth-child(even) {
+  margin-right: 40px;
 }
 
-#trivia_game {
-	float: left;
-	padding-bottom: 40px;
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: .8;
 }
 
-#rutgers {
-	float: right;
-	padding-bottom: 40px;
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  margin-bottom: 0;
+  padding: 15px;
+  width: 100%;
+  max-width: 243px;
+  color: #fdfdf1;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 300;
+  background: #600320;
+  border-bottom: 0;
 }
 
-#rps {
-	float: left;
-	padding-bottom: 40px;
-}
-
-figcaption {
-	position: absolute;
-	padding: 20px;
-	background-color: #600320; 
-    border: none;
-    color: #fdfdf1;
-    font-family: "Georgia";
-    font-weight: bold;
-    font-size: 20px;
-    width: 210px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    z-index: 2;
-}
-
-#hangman_label {
-	top: 240px;
-}
-
-#rpg_label {
-	top: 240px;
-	right: 50px;
-}
-
-#triviagame_label {
-	top: 480px;
-	left: 50px;
-}
-
-#rutgers_label {
-	top: 480px;
-	right: 50px;
-}
-
-#rps_label {
-	top: 720px;
-	left: 50px;
+.auth-image {
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  float: left;
 }
 
 footer {
