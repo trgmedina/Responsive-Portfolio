@@ -68,7 +68,6 @@ a.default_links {
 }
 
 .main_content {
-	/*clear: both;*/
 	float: left;
 	position: relative;
 	top: 150px;
@@ -227,3 +226,71 @@ footer {
 	border-top: 3px solid #600320;
 	z-index: 3;
 }
+
+@media screen and (max-width: 980px) {
+
+	header {
+		font-size: 20px;
+	}
+
+	a {
+		font-size: 14px;
+	}
+
+	a.default_links {
+		padding: 10px;
+	}
+
+	.main_content {
+		width: 400px;
+	}
+
+	.social_media {
+		width: 175px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.main_content {
+		clear: both;
+		position: static;
+		width: 90%;
+		margin-top: 150px;
+		margin-left: 40px;
+		margin-right: 40px;
+		margin-bottom: 10px;
+		padding: 10px;
+	}
+	
+	.social_media {
+		clear: both;
+		position: static;
+		width: 90%;
+		margin-bottom: 80px;
+	}
+} 	
+
+@media screen and (max-width: 640px) {
+
+	#profile_pic {
+		clear: both;
+		padding: 10px;
+		width: 90%;
+		height: 90%;
+	}
+
+	.main_content {
+		width: 75%;
+	}
+	
+	.social_media {
+		width: 75%;
+	}
+
+	a.default_links {
+		padding: 20px;
+		float: left;
+		position: relative;
+		top: 80px;
+	}
+} 	
