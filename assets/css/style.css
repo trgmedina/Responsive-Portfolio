@@ -280,10 +280,12 @@ footer {
 	}
 
 	.main_content {
+		clear: both;
 		width: 75%;
 	}
 	
 	.social_media {
+		position: static;
 		width: 75%;
 	}
 
